@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>Disease Predictor</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+    <style>
+        .container{
+            margin:auto;
+            margin-top: 90px;
+            width: 51%;
+            /* border: 2px solid red; */
+            padding-left:20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgb(255, 255, 255);
+            opacity: 0.7;
+            height: 70%;
+            border-radius: 40px;
+        }
+        .all{
+              /* border: 2px solid red; */
+              display: inline-block;
+              font-family: 'Pacifico', cursive;
+              font-size: 21px;
+        }
+        .all input{
+            border: 1px solid;
+            margin-left:5px ;
+            border-radius: 5px;
+        }
+        .all option{
+             background-color: grey;
+        }
+        .container h1{
+            font-size: 40px;
+            font-family: 'Arvo', serif;;
+            
+        }
+        body{
+            background: url("/images/agri.png");
+        }
+        #btn1{
+            border-radius: 5px;
+        }
+        #btn1 a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1 class="heading">Symptoms Of Crop</h1>
+    <div class="all">
+        <form action="">
+            Crop name:<input type="text" placeholder="enter the crop name">
+        </div>
+            <br>
+            <div class="all">
+            Crop breed:<input type="text" placeholder="enter the crop breed">
+        </div>
+            <br>
+            <div class="all">
+                <label for="symptom1">Symptom 1</label>
+                <select name="symptom" id="symptom1">
+                <option value="leafrust">Leaf Rust</option>
+                <option value="stem rust" selected>Stem Rust</option>
+                <option value="h">Leaf Spot</option>
+                <option value="i">Canker</option>
+                <option value="j">Crown Gall</option>
+            </select>
+            </div>
+            <br>
+            <div class="all">
+                <label for="symptom2">Symptom 2</label>
+                <select name="symptom" id="symptom2">
+                <option value="leafrust" selected>Leaf Rust</option>
+                <option value="stem rust">Stem Rust</option>
+                <option value="h">Leaf Spot</option>
+                <option value="i">Canker</option>
+                <option value="j">Crown Gall</option>
+            </select>
+            </div>
+            <br>
+            <div class="all">
+                Symptom 3(Enter none if already listed all symptoms):<input type="text" placeholder="enter symptoms if any">
+            </div>
+            <br>
+            <div class="all">
+                Symptom 4(Enter none if already listed all symptoms):<input type="text" placeholder="enter symptoms if any">
+            </div>
+            <br>
+            <div class="all">
+               <input type="button"value="Submit">
+               <input type="button" value="Reset">
+               <button id="btn1"><a href="/index.html">Return to home page</a></button>
+            </div>
+                <br>
+           </form>
+        </div>
+</body>
+</html>

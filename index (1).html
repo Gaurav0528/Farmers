@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Castoro&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Castoro&family=Rubik:wght@500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: url("/images/background.png");
+            height: 1000px;
+        }
+        
+
+        .navbar {
+            border: 2px solid rgb(36, 212, 36);
+            ;
+            color: black;
+            background-color: rgb(42, 240, 42);
+            border-radius: 30px;
+            height: 41px;
+        }
+
+
+        .navbar li {
+            list-style-type: none;
+            padding-right: 44px;
+            font-size: 23px;
+            font-family: 'Castoro', serif;
+            font-family: 'Rubik', sans-serif;
+        }
+
+        .navbar ul {
+            padding-top: 1px;
+
+
+        }
+
+        .topbar {
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+            margin-top: 4px;
+            margin-bottom: 2px;
+        }
+        #logo{
+            height: 120px;
+            width: 120px;
+            
+        }
+        .logo1{
+            /* border: 2px solid red; */
+            width: 140px;
+            margin: auto;}
+        #flag1{
+            height: 400px;
+            width: 400px;
+            opacity: 0.7;
+        }
+        .logo2{
+            /* border: 2px solid red; */
+            display: block;
+            width: 280px;
+            margin: auto;}
+        .topbar a{
+            text-decoration: none;
+            color: black;
+            cursor: pointer;
+        }
+        .topbar a:hover{
+            color: grey;
+        }
+        #searchbar{
+            float: right;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <ul class="topbar">
+                <li><a href="#">Weather Forecast</a></li>
+                <li><a href="/files/symptoms.html">Symptoms Check</a></li>
+                <li><a href="#">Your Details</a></li>
+                <li><a href="/files/schemes.html">Government Schemes</a></li>
+                <li><a href="/files/contact us.html">help</a></li>
+            </ul>
+
+
+
+
+        </div>
+    </header>
+    <form  id="searchbar" action="https://www.google.com/search ">
+        <input type="text" name="q" placeholder="Google Search">
+        <input type="submit" value="search">
+    </form>
+    
+    <div class="logo1">
+        <img src="images/hiclipart.com.png" id="logo" alt="">
+        
+    </div>
+    
+    <div class="logo2">
+        <img src="images/flag.png"  id="flag1" alt="">
+    </div>
+    
+
+</body>
+
+</html>

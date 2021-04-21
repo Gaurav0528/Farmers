@@ -1,0 +1,96 @@
+*{
+    margin :0;
+    padding:0;
+    box-sizing: border-box;
+    }
+    body
+    {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    background-image: url('/images/bg.jpg');
+    background-size: cover;
+    background-position: top center;
+    }
+   
+    .box
+    {
+        display: flex;
+        flex-direction: column;
+        min-height: 50vh;
+        width: 500px;
+        border: black;
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+        background: rgba(219, 213, 213, 0.534);
+        padding: 20px;
+        margin: 8% auto 0;
+        text-align: center;
+    }
+    header
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 15px 15px ;
+    }
+  
+    header input{
+        width: 100%;
+        max-width:280px ;
+        padding: 10px 15px;
+        border: none;
+        outline: none;
+        font-family: 'montserrat', sans-serif;
+        background-color: rgb(207, 207, 207);
+        border-radius: 14px 14px 14px 14px;
+        color: #313131;
+      font-size: 18px;
+      font-weight: 300;
+      transition: 0.3s ease-out ;
+    }
+    
+    main{
+        flex: 1 1 100%;
+        padding: 25px 25px 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center ;
+        text-align: center;
+    }
+    .location .city 
+    {
+        color: black;
+        font-size: 55px;
+        font-weight: 500;
+        margin-bottom: 5px;
+    }
+    .location .date{
+        color: rgb(97, 95, 95);
+        font-size: 20px;
+    }
+     .current .temp {
+         color: black;
+         font-size: 100px;
+         font-weight: 900;
+         margin: 30px 0px;
+         
+     }
+     .current .temp span
+     {
+         font-size: 50px;
+         font-weight: 200;
+     }
+     .current .weather
+     {
+         color: black;
+         font-weight: 700;
+         margin-bottom: 15px;
+         
+     }
+     .current .hi-low {
+        color: black;
+        font-size: 24px;
+        font-weight: 500;
+    
+      }
+     
+     

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crop Population</title>
+    <style>
+    body{
+        background: url("/images/cropd.jpg");
+        background-size: cover;
+    background-position: top center;
+    }
+    h1{
+        display: flex;
+        flex-direction: column;
+        min-height: 2vh;
+        width: 400px;
+        border: black;
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+        background: rgba(202, 202, 202, 0.582);
+        padding: 20px;
+        margin: 8% auto 0;
+        text-align: center;
+    
+    }
+    table
+    {
+        display: flex;
+        flex-direction: column;
+        min-height: 20vh;
+        width: 400px;
+        border: black;
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+        background: rgba(202, 202, 202, 0.582);
+        padding: 20px;
+        margin: 8% auto 0;
+        text-align: center;
+    
+    }
+    </style>
+</head>
+<body >
+ 
+<br>
+<h1 ALIGN=CENTER> CROP POPULATION </h1>
+
+
+
+<table align="center">
+
+<tr>
+<td> Row width in cm:
+<td><input type="text" id="legro"></td>
+</tr>
+<br>
+
+<tr>
+<td>Seed Spacing in cm:
+<td><input type="text" id="rowsp"></td>
+</tr>
+
+<tr>
+<td><input type="button" value="Calculate" onClick="population()"></td>
+</tr>
+
+
+<tr>
+<td>population
+<td><span id ="result"><input type="text" id="pop"></span></td>
+</tr>
+ 
+ </body>
+ <script src="cal.js"></script>
+</html>
+</body>
+</html>
